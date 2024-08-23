@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>MakeMeUpzz - Login</title>
+        <link href="../style/LoginPage.css" rel="stylesheet"/>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -12,11 +14,11 @@
         <hr />
 
         <div>
-            <asp:TextBox ID="UsernameTb" runat="server" Placeholder="Username" />
+            <asp:TextBox ID="UsernameTb" runat="server" Placeholder="Username" CssClass="inputuserpassword"/>
         </div>
 
         <div>
-            <asp:TextBox ID="UserPasswordTb" runat="server" Placeholder="Password" TextMode="Password" />
+            <asp:TextBox ID="UserPasswordTb" runat="server" Placeholder="Password" TextMode="Password" CssClass="inputuserpassword" />
         </div>
 
         <br />

@@ -1,0 +1,41 @@
+﻿body {
+    padding:0px;
+    margin:0px;
+
+}
+#Home > h1 {
+    margin: 0px;
+    background-color: aqua;
+}
+#Home {
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    gap: 50px;
+    background-color:cadetblue;
+    height:50px;
+    align-items:center;
+    justify-content:flex-end;
+    padding:0px;
+    padding-right:50px;
+    padding-left:50px;
+}
+.navbar>a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+}
+#LogoutBtn {
+    background-color: aqua;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px
+}
+.isihomepage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}

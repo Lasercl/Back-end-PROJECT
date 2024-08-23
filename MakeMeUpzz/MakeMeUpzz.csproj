@@ -1223,6 +1223,8 @@
       <DependentUpon>MakeMeUpzzModel.edmx</DependentUpon>
       <LastGenOutput>MakeMeUpzzModel.cs</LastGenOutput>
     </Content>
+    <Content Include="style\HomePage.css" />
+    <Content Include="style\LoginPage.css" />
     <Content Include="Views\HandleTransaction.aspx" />
     <Content Include="Views\HomePage.aspx" />
     <Content Include="Views\InsertMakeup.aspx" />
@@ -1466,6 +1468,7 @@
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

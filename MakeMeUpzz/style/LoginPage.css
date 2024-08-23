@@ -1,0 +1,39 @@
+﻿body {
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+#form1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border:solid 1px;
+    width:20%;
+    height:500px;
+    gap:20px;
+    padding:20px;
+    border-radius:20px;
+}
+#form1>h1{
+    justify-self:start;
+    margin-top:5px;
+}
+.inputuserpassword{
+    border:none;
+    border-bottom:solid 1px;
+
+}
+#LoginBtn {
+    background-color: aqua;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+#RegisterRedirect{
+    color:blue;
+    font-weight:bold;
+}
