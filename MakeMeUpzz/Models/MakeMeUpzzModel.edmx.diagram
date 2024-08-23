@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f1d258589c54df5bd0a404cade67fbb" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.Cart" Width="1.5" PointX="5.25" PointY="3.625" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.MakeupBrand" Width="1.5" PointX="0.75" PointY="0.875" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.Makeup" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.MakeupType" Width="1.5" PointX="0.75" PointY="4" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.TransactionDetail" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.TransactionHeader" Width="1.5" PointX="3" PointY="8" />
+        <EntityTypeShape EntityType="MakeMeUpzzDatabaseModel.User" Width="1.5" PointX="0.75" PointY="7.625" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_Carts_ToMakeups" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_Carts_ToUsers" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_Makeups_ToMakeupBrands" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_Makeups_ToMakeupTypes" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_TransactionDetails_ToMakeups" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_TransactionDetails_ToTransactionHeaders" />
+        <AssociationConnector Association="MakeMeUpzzDatabaseModel.FK_TransactionHeaders_ToUsers" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
