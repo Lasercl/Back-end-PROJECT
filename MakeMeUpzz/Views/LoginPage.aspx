@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>MakeMeUpzz - Login</title>
-        <link href="../style/LoginPage.css" rel="stylesheet"/>
+        <link href="../style/LoginPage.css?version=1" rel="stylesheet" />
 
 </head>
 <body>
