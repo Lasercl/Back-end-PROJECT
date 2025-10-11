@@ -7,19 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MakeMeUpzz.Views {
+namespace MakeMeUpzz.Views
+{
 
 
-    public partial class HandleTransaction {
-
-        /// <summary>
-        /// HandleTransation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm HandleTransation;
+    public partial class HandleTransaction
+    {
 
         /// <summary>
         /// TransactionGV control.

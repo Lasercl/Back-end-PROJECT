@@ -7,10 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplicationFrontEnd.Views {
+namespace WebApplicationFrontEnd.Views
+{
 
 
-    public partial class RegisterPage {
+    public partial class RegisterPage
+    {
 
         /// <summary>
         /// RegisterForm control.
@@ -22,15 +24,6 @@ namespace WebApplicationFrontEnd.Views {
         protected global::System.Web.UI.HtmlControls.HtmlForm RegisterForm;
 
         /// <summary>
-        /// UsernameLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UsernameLbl;
-
-        /// <summary>
         /// UsernameTb control.
         /// </summary>
         /// <remarks>
@@ -38,15 +31,6 @@ namespace WebApplicationFrontEnd.Views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox UsernameTb;
-
-        /// <summary>
-        /// UserEmailLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserEmailLbl;
 
         /// <summary>
         /// UserEmailTb control.
@@ -58,15 +42,6 @@ namespace WebApplicationFrontEnd.Views {
         protected global::System.Web.UI.WebControls.TextBox UserEmailTb;
 
         /// <summary>
-        /// DOBLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DOBLbl;
-
-        /// <summary>
         /// DOBTb control.
         /// </summary>
         /// <remarks>
@@ -74,15 +49,6 @@ namespace WebApplicationFrontEnd.Views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox DOBTb;
-
-        /// <summary>
-        /// UserGenderLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserGenderLbl;
 
         /// <summary>
         /// GenderRBL control.
@@ -94,15 +60,6 @@ namespace WebApplicationFrontEnd.Views {
         protected global::System.Web.UI.WebControls.RadioButtonList GenderRBL;
 
         /// <summary>
-        /// UserRoleLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserRoleLbl;
-
-        /// <summary>
         /// RoleDDL control.
         /// </summary>
         /// <remarks>
@@ -112,15 +69,6 @@ namespace WebApplicationFrontEnd.Views {
         protected global::System.Web.UI.WebControls.DropDownList RoleDDL;
 
         /// <summary>
-        /// UserPasswordLbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserPasswordLbl;
-
-        /// <summary>
         /// UserPasswordTb control.
         /// </summary>
         /// <remarks>
@@ -128,15 +76,6 @@ namespace WebApplicationFrontEnd.Views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox UserPasswordTb;
-
-        /// <summary>
-        /// UserPassword2Lbl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserPassword2Lbl;
 
         /// <summary>
         /// UserPassword2Tb control.
