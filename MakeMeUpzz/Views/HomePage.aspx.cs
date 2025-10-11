@@ -3,12 +3,14 @@ using MakeMeUpzz.Models;
 using MakeMeUpzz.Modules;
 using System;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace MakeMeUpzz.Views {
     public partial class HomePage : System.Web.UI.Page {
+        private String role = null;
         protected void Page_Load(object sender, EventArgs e) {
             if (!IsPostBack) {
                 HttpCookie userCookie = Request.Cookies["UserID"];
@@ -16,19 +18,20 @@ namespace MakeMeUpzz.Views {
 
                 if (userCookie != null && Int32.TryParse(userCookie.Value, out id)) {
                     Response<User> userResponse = UserHandler.getUserByID(id);
-
                     if (userResponse.Success) {
                         WelcomeLbl.Text = "Welcome back, " + userResponse.Payload.Username;
-                        RoleLbl.Text = "Current Role: " + userResponse.Payload.UserRole;
-
+                        role = userResponse.Payload.UserRole;
+                        RoleLbl.Text = "Current Role: " + role;
                         PopulateNavigation(userResponse.Payload.UserRole);
+                        System.Diagnostics.Debug.WriteLine("ROLE: " + role);
+
 
                         if (userResponse.Payload.UserRole == "Admin") {
                             Response<List<User>> adminResponse = UserHandler.getAllUsers(userResponse.Payload);
-
                             if (adminResponse.Success) {
                                 UserGV.DataSource = adminResponse.Payload;
-                                UserGV.DataBind();
+                                UserGV.DataBind();     
+
                             }
                             else {
                                 MessageLbl.Text = adminResponse.Message;
@@ -41,6 +44,14 @@ namespace MakeMeUpzz.Views {
                 }
                 else {
                     Response.Redirect("~/Views/LoginPage.aspx");
+                }
+                if (role == "Admin")
+                {
+                    AdminPanel.Visible = true;
+                }
+                else
+                {
+                    AdminPanel.Visible = false;
                 }
             }
         }
